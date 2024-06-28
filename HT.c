@@ -4,7 +4,9 @@
 int main(){
   int i,co,t=0,h=0;
   char str[20];
-
+  printf("Who are you?\n");
+  scanf("%s",str);
+  printf("Hello, %s\n",str);
 
   printf("Tossing a coin...\n");
 
